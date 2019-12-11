@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+	width: 1170px;
+    margin: 50px auto;
+}
+#header{
+    width: 1170px;
+    background-color: palevioletred;
+    color: #eeeeee;
+    text-align: center;
+    position: relative;
+}
+#header h2, #header h4{
+	padding: 5px;
+}
+#avatar{
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+}
+#info{
+	width: 1170px;
+	float: right;
+}
+#info-content{
+	width: 870px;
+	margin: 0px auto;
+}
+#info-content .content{
+    width: 30%;
+    float: left;
+    color: black;
+    margin: 8px;
+}
+#wrap-content{
+    width: 1170px;
+    border-top: 2px solid palevioletred;
+}
+#wrap-content  #left{
+    width: 48%;
+    float: left;
+}
+#wrap-content  #right{
+    width: 48%;
+    float: left;
+    margin-left: 20px;
+    border-left: 2px solid palevioletred;
+}
+.content1{
+    border-bottom:2px solid palevioletred;
+}
+.content1 #word, .content1 #listen{
+    width: 48%;
+    float: left;
+}
+.content1 #ex, .content1 #speak{
+    width: 48%;
+    float: left;
+}
+.content1 #pow, .content1 #read{
+    width: 48%;
+    float: left;
+}
+.content1 #out, #write{
+    width: 48%;
+    float: left;
+}
+.content1 ul li{
+    float: left;
+    list-style: none;
+    margin-right: 8px;
+}
+.word, .pow, .ex, .out{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ff253a;
+}
+.two{
+    background-color: papayawhip;
+}
