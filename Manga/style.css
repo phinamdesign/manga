@@ -1,0 +1,118 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	width: 1170px;
+	margin: 20px auto;
+}
+#logo{
+	width: 255px;
+	float: left;
+}
+#box-search{
+	width: 915px;
+	float: left;
+	position: relative;
+}
+#btn{
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	background-color: pink;
+	display: block;
+}
+#text{
+	margin-top: 10px;
+}
+#box{
+	width: 420px;
+	height: 33px;
+	border: 1px solid red;
+	background-color: pink;
+	border-radius: 5px;
+	position: absolute;
+	top: 83px;
+	right: 0px;
+}
+#search{
+	border-radius: 5px;
+	width: 300px;
+	padding: 3px;
+	margin: 4px;
+}
+#head{
+	width: 1210px;
+	min-height: 300px;
+	margin-bottom: 10px;
+	display: block;
+}
+#menu-top{
+	width: 1209px;
+	margin-bottom: 15px;
+	background-color: bisque;
+}
+#menu-top ul li{
+	list-style: none;
+	float: left;
+	padding: 15px 66px;
+}
+#menu-top ul li:hover{
+	background-color: burlywood;
+}
+#menu-top ul li a{
+	text-decoration: none;
+}
+#wrap-content{
+	width: 1170px;
+	background-color: antiquewhite;
+	padding: 20px;
+	margin-bottom: 25px;
+}
+#sidebar-left{
+	width: 250px;
+	float: left;
+}
+#sidebar-left-content{
+	margin-left: 30px;
+}
+#sidebar-left ul li{
+	list-style: none;
+	padding: 5px;
+	margin: 10px;
+}
+#sidebar-left ul li a{
+	text-decoration: none;
+}
+#content{
+	width: 910px;
+	float: left;
+}
+#content .anime{
+	width: 226px;
+	float: left;
+	min-height: 300px;
+}
+#content .anime .anime-content{
+	margin-bottom: 20px;
+	text-align: center;
+}
+#content .anime .anime-content p{
+	text-align: center;
+}
+#content .anime .anime-content a{
+	text-decoration: none;
+}
+#content .anime img{
+	width: 200px;
+	height: 200px;
+}
+#footer{
+	width: 1210px;
+	min-height: 60px;
+	line-height: 60px;
+	background-color: bisque;
+}
+#footer p{
+	text-align: center;
+}
