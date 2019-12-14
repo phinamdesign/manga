@@ -1,0 +1,39 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#header nav{
+	background-color: #FFFFFF;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	text-align: center;
+	box-shadow: 0px 2px 2px #E9E8E8;
+}
+#calltoaction .jumbotron{
+	text-align: center;
+	padding: 150px 0px;
+	background: #ABE0EF url('images/img.jpg') center no-repeat;
+	background-size: cover;
+	color: white;
+	margin-bottom: 0px;
+}
+#calltoaction .btn-feature{
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+.content1, #content2{
+	text-align: center;
+	padding: 30px 0px;
+}
+#content .glyphicon{
+	font-size: 50px;
+}
+#content2{
+	background: #35495e;
+	color: white;
+}
+#footer{
+	background-color: #34495e;
+	padding: 30px 0px;
+	color: white;
+}
